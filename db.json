@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": "c8dc",
+      "name": "Parth",
+      "email": "akbariapurv@gmail.com",
+      "role": "User",
+      "status": "Active"
+    },
+    {
+      "id": "586f",
+      "name": "ledlight",
+      "email": "pmovaliya9@gmail.com",
+      "role": "Editor",
+      "status": "Active"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "permissions": [
+        "Read",
+        "Write",
+        "Delete"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Editor",
+      "permissions": [
+        "Read",
+        "Write"
+      ]
+    }
+  ]
+}
